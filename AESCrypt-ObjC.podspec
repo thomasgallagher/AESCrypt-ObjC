@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "AESCrypt-ObjC"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "Simple AES encryption / decryption for iOS and OS X."
 
   # This description is used to generate tags and improve search results.
@@ -66,7 +66,7 @@ AESCrypt uses the AES-256-CBC cipher and encodes the encrypted data with base64.
   #
 
   # s.platform     = :ios
-  s.platform     = :ios, "7.0"
+  s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -92,7 +92,7 @@ AESCrypt uses the AES-256-CBC cipher and encodes the encrypted data with base64.
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "**/AESCrypt.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
