@@ -92,7 +92,7 @@ AESCrypt uses the AES-256-CBC cipher and encodes the encrypted data with base64.
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "**/AESCrypt.{h,m}"
+  s.source_files  = "**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
